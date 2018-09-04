@@ -12,7 +12,7 @@ public class AnagramString {
    public static void anagram(char[]s1, char[] s2) {
 	                         Arrays.sort(s1);
 	                         Arrays.sort(s2);
-	                         if(Arrays.equals(s1, s2))
+	                         if(Arrays.equals(s1, s2)) // equals method in Arrays
 	                        	 System.out.println("Strings are Anagram");
 	                         else
 	                        	 System.out.println("Strings are not  Anagram");
